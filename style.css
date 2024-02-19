@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    background-color: black;
+    color: seashell;
+    opacity: 0.9;
+}
+header {
+    position: fixed;
+    z-index: 1;
+    background-color: black;
+}
+.nav-flex {
+    display: flex;
+    border-bottom: 1px solid seashell;
+    justify-content: space-between;
+    width: 100vw;
+}
+.logo {
+    height: 50px;
+    padding: 9px 10px;
+}
+.navbar {
+    font-size: 22px;
+    font-weight: 600;
+    height: 68px;
+    display: flex;
+    align-items: center;
+}
+.navbar-item {
+    color: seashell;
+    padding: 13px;
+}
+.hero {
+    width: 1200px;
+    height: 700px;
+    top: 69px;
+    position: relative;
+    align-items: center;
+    margin: 0 auto;
+    background-image: url(./images/img-mission-background.webp);
+    opacity: 0.8;
+}
+.banner {
+    height: 80px;
+    position: relative;
+    top: 300px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.featured {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 69px;
+    margin-top: 75px;
+}
+.featured h2, .featured h4 {
+    padding: 10px;
+}
+.featured-tea {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+    justify-content: center;
+}
+.tea-container {
+    padding: 10px 15px;
+    text-align: center;
+}
+.tea-image {
+    width: 300px;
+    height: 200px;
+}
+.bg-image {
+    background-image: url(images/img-locations-background.webp);
+    width: 1200px;
+    height: 500px;
+    position: relative;
+    top: 69px;
+    margin: 0 auto;
+    margin-top: 60px;
+    opacity: 0.8;
+}
+.last-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    color: seashell;
+}
+.three-containers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1200px;
+}
+.lil-container {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    height: 280px;
+    width: 300px;
+    margin: 20px;
+    align-items: center;
+    justify-content: space-around;
+}
+.lil-container h3 {
+    margin-bottom: -10px;
+}
+.lil-container h4 {
+    font-weight: 400;
+}
+.contact {
+    position: relative;
+    height: 200px;
+    top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact h2 {
+    margin-bottom: 40px;
+}
+.contact h5 {
+    margin-bottom: 30px;
+}
+footer {
+    height: 80px;
+    position: relative;
+    top: 80px;
+    margin-left: 25px;
+    display: flex;
+    align-items: center;
+    opacity: 1;
+}
